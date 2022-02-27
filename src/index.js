@@ -4,10 +4,16 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+const Hello = () => {
+  return <p>Hello</p>
+}
+
+
+
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+<div>
+  <Hello/>
+</div>,
   document.getElementById('root')
 );
 
